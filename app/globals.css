@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+@theme {
+  --color-navy: #14242B;
+  --color-ivory: #F7F5F0;
+  --color-graphite: #343A3D;
+  --color-sage: #89968A;
+  --color-copper: #B77C55;
+  
+  --font-sans: var(--font-sans), ui-sans-serif, system-ui, sans-serif;
+  --font-heading: var(--font-heading), ui-sans-serif, system-ui, sans-serif;
+}
+
+@layer base {
+  body {
+    @apply bg-ivory text-graphite font-sans;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-heading font-medium tracking-tight text-navy;
+  }
+}
+
+/* Custom scrollbar and utilities */
+::selection {
+  background-color: var(--color-copper);
+  color: white;
+}
