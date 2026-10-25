@@ -1,4 +1,5 @@
 import { siteConfig } from "@/data/config";
+import { Button } from "@/components/ui/button";
 
 export default function ContactPage() {
   return (
@@ -35,8 +36,14 @@ export default function ContactPage() {
 
             <div>
               <h3 className="text-sm font-medium uppercase tracking-wider text-sage mb-3">Professional Network</h3>
-              <a href={siteConfig.linkedIn} target="_blank" rel="noopener noreferrer" className="text-xl font-heading text-navy hover:text-copper transition-colors">
-                Connect on LinkedIn
+              <Button asChild className="bg-navy hover:bg-navy/90 text-white mt-2 mb-3">
+                <a href={siteConfig.linkedIn} target="_blank" rel="noopener noreferrer">
+                  Connect on LinkedIn
+                </a>
+              </Button>
+              <br />
+              <a href={siteConfig.linkedIn} target="_blank" rel="noopener noreferrer" className="text-copper hover:text-navy transition-colors text-sm break-all">
+                {siteConfig.linkedIn}
               </a>
             </div>
           </div>

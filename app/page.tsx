@@ -54,6 +54,11 @@ export default function Home() {
               <Button asChild variant="outline" size="lg" className="border-white/20 text-white hover:bg-white hover:text-navy">
                 <Link href="/projects">Explore Selected Projects</Link>
               </Button>
+              <Button asChild variant="outline" size="lg" className="border-white/20 text-white hover:bg-white hover:text-navy">
+                <a href={siteConfig.linkedIn} target="_blank" rel="noopener noreferrer">
+                  LinkedIn
+                </a>
+              </Button>
             </div>
           </div>
         </div>
@@ -194,9 +199,16 @@ export default function Home() {
           <p className="text-xl text-graphite/80 mb-12">
             Available for selected projects worldwide. Reach out to discuss your specific requirements and commercial objectives.
           </p>
-          <Button asChild size="lg" className="bg-navy hover:bg-navy/90 text-white">
-            <Link href="/contact">Start a Conversation</Link>
-          </Button>
+          <div className="flex flex-col sm:flex-row justify-center gap-4">
+            <Button asChild size="lg" className="bg-navy hover:bg-navy/90 text-white">
+              <Link href="/contact">Start a Conversation</Link>
+            </Button>
+            <Button asChild variant="outline" size="lg" className="border-navy text-navy hover:bg-navy hover:text-white">
+              <a href={siteConfig.linkedIn} target="_blank" rel="noopener noreferrer">
+                Connect on LinkedIn
+              </a>
+            </Button>
+          </div>
         </div>
       </section>
     </div>
