@@ -1,10 +1,9 @@
 export const siteConfig = {
   name: "Ravi Caue Wilhem",
   title: "Independent Quantity Surveyor & Construction Cost Consultant",
-  email: "rustynails204@proton.me",
-  linkedIn: "http://www.linkedin.com/in/ravi-caue-wilhem111",
-  location: "London, United Kingdom",
-  countries: ["Australia", "Mexico", "Germany", "Italy", "United Kingdom", "Brazil"],
+  email: "realcaue@proton.me",
+  location: "London, United Kingdom & Brussels, Belgium",
+  countries: ["Australia", "Mexico", "Germany", "Italy", "United Kingdom", "Brazil", "Belgium"],
   qualifications: [
     "BSc (Hons) Quantity Surveying",
     "MRICS (Member of the Royal Institution of Chartered Surveyors)",

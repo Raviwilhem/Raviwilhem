@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { siteConfig } from "@/data/config";
 import { Button } from "@/components/ui/button";
-import { ArrowRight, MapPin, Building2, TrendingUp, ShieldCheck } from "lucide-react";
+import { ArrowRight, MapPin } from "lucide-react";
 
 import Image from "next/image";
 
@@ -53,11 +53,6 @@ export default function Home() {
               </Button>
               <Button asChild variant="outline" size="lg" className="border-white/20 text-white hover:bg-white hover:text-navy">
                 <Link href="/projects">Explore Selected Projects</Link>
-              </Button>
-              <Button asChild variant="outline" size="lg" className="border-white/20 text-white hover:bg-white hover:text-navy">
-                <a href={siteConfig.linkedIn} target="_blank" rel="noopener noreferrer">
-                  LinkedIn
-                </a>
               </Button>
             </div>
           </div>
@@ -202,11 +197,6 @@ export default function Home() {
           <div className="flex flex-col sm:flex-row justify-center gap-4">
             <Button asChild size="lg" className="bg-navy hover:bg-navy/90 text-white">
               <Link href="/contact">Start a Conversation</Link>
-            </Button>
-            <Button asChild variant="outline" size="lg" className="border-navy text-navy hover:bg-navy hover:text-white">
-              <a href={siteConfig.linkedIn} target="_blank" rel="noopener noreferrer">
-                Connect on LinkedIn
-              </a>
             </Button>
           </div>
         </div>

@@ -20,10 +20,6 @@ export function Footer() {
               <a href={`mailto:${siteConfig.email}`} className="text-sm hover:text-copper transition-colors">
                 {siteConfig.email}
               </a>
-              <span className="text-sage">|</span>
-              <a href={siteConfig.linkedIn} target="_blank" rel="noopener noreferrer" className="text-sm hover:text-copper transition-colors">
-                LinkedIn
-              </a>
             </div>
           </div>
 
