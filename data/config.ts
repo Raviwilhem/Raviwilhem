@@ -3,7 +3,7 @@ export const siteConfig = {
   title: "Independent Quantity Surveyor & Construction Cost Consultant",
   email: "realcaue@proton.me",
   location: "London, United Kingdom & Brussels, Belgium",
-  countries: ["Australia", "Mexico", "Germany", "Italy", "United Kingdom", "Brazil", "Belgium"],
+  countries: ["Australia", "Mexico", "Germany", "Italy", "United Kingdom", "Brazil", "Belgium", "Switzerland"],
   qualifications: [
     "BSc (Hons) Quantity Surveying",
     "MRICS (Member of the Royal Institution of Chartered Surveyors)",
